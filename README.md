@@ -13,6 +13,7 @@ Combinando **ESP32**, sensores **DHT22** e **HC-SR04**, e integração via **MQT
 
 📌 Protótipo desenvolvido na plataforma **Wokwi**:
 👉 [Acesse aqui o projeto](https://wokwi.com/projects/442284840585644033)
+👉 [Acesse aqui o vídeo explicativo](https://youtu.be/wx_2yOgwy-k)
 
 ---
 
@@ -110,15 +111,16 @@ O sistema segue uma arquitetura IoT básica:
 ## 📂 6. Estrutura do Projeto
 
 ```bash
-├── sketch.ino              # Código principal do ESP32
-├── diagram.json            # Esquemático do circuito no Wokwi
-├── assets                  # Estrutura padrão
-│   └── images              # Capturas de tela do projeto
-│       ├── imagem_1.png    # Diagrama no Wokwi
-│       ├── imagem_2.png    # Fluxo Node-RED
-│       ├── imagem_3.png    # Logs de conexão MQTT
-│       └── imagem_4.png    # Dashboard final
-└── README.md               # Documentação do projeto
+├── sketch.ino                  # Código principal do ESP32
+├── diagram.json                # Esquemático do circuito no Wokwi
+├── assets                      # Estrutura padrão
+│   └── src                     # Arquivo source 
+│       └── images              # Capturas de tela do projeto
+│           ├── imagem_1.png    # Diagrama no Wokwi
+│           ├── imagem_2.png    # Fluxo Node-RED
+│           ├── imagem_3.png    # Logs de conexão MQTT
+│           └── imagem_4.png    # Dashboard final
+└── README.md                   # Documentação do projeto
 ```
 
 ---
