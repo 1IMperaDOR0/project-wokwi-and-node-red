@@ -45,19 +45,19 @@ O sistema segue uma arquitetura IoT básica:
 
 ### Esquemático no Wokwi
 
-![Diagrama no Wokwi](assets/src/images/imagem_1.png)
+![Diagrama no Wokwi](src/assets/images/imagem_1.png)
 
 ### Fluxo no Node-RED
 
-![Fluxo Node-RED](assets/src/images/imagem_2.png)
+![Fluxo Node-RED](src/assets/images/imagem_2.png)
 
 ### Logs de Conexão MQTT
 
-![Console MQTT](assets/src/images/imagem_3.png)
+![Console MQTT](src/assets/images/imagem_3.png)
 
 ### Dashboard Final
 
-![Dashboard](assets/src/images/imagem_4.png)
+![Dashboard](src/assets/images/imagem_4.png)
 
 ---
 
@@ -113,8 +113,8 @@ O sistema segue uma arquitetura IoT básica:
 ```bash
 ├── sketch.ino                  # Código principal do ESP32
 ├── diagram.json                # Esquemático do circuito no Wokwi
-├── assets                      # Estrutura padrão
-│   └── src                     # Arquivo source 
+├── src                         # Estrutura padrão
+│   └── assets                  # Arquivo source 
 │       └── images              # Capturas de tela do projeto
 │           ├── imagem_1.png    # Diagrama no Wokwi
 │           ├── imagem_2.png    # Fluxo Node-RED
