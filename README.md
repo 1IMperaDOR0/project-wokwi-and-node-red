@@ -125,7 +125,7 @@ O sistema segue uma arquitetura IoT básica:
 
 ---
 
-## ▶️ 8. Como Executar
+## ▶️ 7. Como Executar
 
 1. Clone o repositório e abra o código no [Wokwi](https://wokwi.com).
 2. Configure o **Node-RED** com `node-red-dashboard` e conecte ao broker `test.mosquitto.org`.
